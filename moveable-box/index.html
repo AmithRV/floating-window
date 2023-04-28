@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app-wrap" id="app-wrap">
+        <div class="app">
+
+            <div class="box" id="box" title="double-click to move">
+                <div class="head" id="header">
+                    <label>LABEL</label>
+                    <div class="header-actions">
+                        <img src="../icons/minus.svg" alt="minus-icon" class="box-action-icon"
+                            onclick="minimizeAction()" id="minus-icon" title="minimize"/>
+
+                        <img src="../icons/rectangle.svg" alt="rectangle-icon" class="box-action-icon maximize-icon"
+                            onclick="maximizeAction()" id="maximize"  title="maximize"/>
+
+                        <img src="../icons/close.svg" alt="close-icon" class="box-action-icon"
+                            onclick="closeAction()" title="close"/>
+                    </div>
+                </div>
+
+                <div class="body" id="body">body</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

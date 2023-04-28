@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+.app-wrap {
+    height: 100vh;
+    width: 100vw;
+    background-color: #111a28;
+}
+
+.box{
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 95%;
+    background-color: white;
+    opacity:0.75;
+    max-width: 500px;
+}
+
+.head{
+    border-bottom: 1px solid lightgray;
+    height: 30px;
+    width: 100%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-action-icon{
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.box-action-icon:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.body{
+    height: 200px;
+}
+
+.maximize-icon{
+    display: none;
+}
